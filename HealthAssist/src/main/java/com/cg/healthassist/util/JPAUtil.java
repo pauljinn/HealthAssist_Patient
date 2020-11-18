@@ -13,39 +13,35 @@ public class JPAUtil {
 	private static EntityManagerFactory entityManagerFactory;
 	
 	/**
-	 * Create the entity manager factor to produce the entity manager.
+	 * Create the entity manager factory to produce the entity manager.
 	 */
 	static {
 		entityManagerFactory = Persistence.createEntityManagerFactory("JPA-PU");
 	}
 	
-	/**
-	 * Make the entity manager.
-	 * @return an instance of entity manager.
-	 */
-	public static EntityManager getEntityManager() {
+	public EntityManager getEntityManager() {
 		return entityManagerFactory.createEntityManager();
 	}
 	
 	/**
 	 * Start the transaction.
 	 */
-	public void beginTransaction() {
-		getEntityManager().getTransaction().begin();
+	public void beginTransaction(EntityManager em) {
+		em.getTransaction().begin();
 	}
 	
 	/**
 	 * Save all the changes in database.
 	 */
-	public void commitTransaction() {
-		getEntityManager().getTransaction().commit();
+	public void commitTransaction(EntityManager em) {
+		em.getTransaction().commit();
 	}
 	
 	/**
 	 * Close the transaction.
 	 */
-	public void closeEntityManager() {
-		getEntityManager().close();
+	public void closeEntityManager(EntityManager em) {
+		em.close();
 	}
 
 }

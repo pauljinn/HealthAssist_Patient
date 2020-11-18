@@ -193,3 +193,79 @@
 2020-11-18 21:15:30,641 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-11-18 21:32:33,845 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-18 21:32:33,856 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 21:32:33,884 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:32:33,885 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-18 21:39:58,335 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:39:58,343 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 21:39:58,352 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:39:58,353 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-18 21:42:24,644 [Worker-14: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:42:24,659 [Worker-14: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 21:42:24,664 [Worker-14: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:42:24,664 [Worker-14: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-18 21:54:35,017 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:54:35,020 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 21:54:35,024 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:54:35,024 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-18 21:55:03,199 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:55:03,203 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 21:55:03,207 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 21:55:03,208 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-18 23:30:13,343 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 23:30:13,378 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 23:30:13,396 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 23:30:13,398 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:00:09,163 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:00:09,166 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 00:00:09,170 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:00:09,170 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:41:34,499 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:41:34,502 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:41:34,507 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:41:34,508 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:43:10,335 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:43:10,338 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:43:10,341 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:43:10,342 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:43:46,655 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:43:46,657 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:43:46,661 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:43:46,662 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:44:53,723 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:44:53,725 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:44:53,731 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:44:53,732 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:46:39,704 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:46:39,708 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:46:39,713 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:46:39,714 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:55:15,962 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:55:15,964 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 00:55:15,995 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:55:15,996 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 00:55:35,389 [Worker-64: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:55:35,390 [Worker-64: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 00:55:35,392 [Worker-64: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 00:55:35,393 [Worker-64: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:02:50,116 [Worker-61: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:02:50,117 [Worker-61: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 01:02:50,125 [Worker-61: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:02:50,126 [Worker-61: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:04:49,514 [Worker-66: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:04:49,517 [Worker-66: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 01:04:49,524 [Worker-66: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:04:49,526 [Worker-66: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:09:08,575 [Worker-67: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:09:08,577 [Worker-67: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 01:09:08,580 [Worker-67: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:09:08,580 [Worker-67: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:15:51,278 [Worker-68: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:15:51,281 [Worker-68: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 01:15:51,284 [Worker-68: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:15:51,285 [Worker-68: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:19:18,445 [Worker-72: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:19:18,447 [Worker-72: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-19 01:19:18,451 [Worker-72: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:19:18,452 [Worker-72: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Aman Soni\Desktop\Health Assist\HealthAssist\src\test\resources
+2020-11-19 01:20:45,402 [Worker-66: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 01:20:45,405 [Worker-66: Launching PatientDAOImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
