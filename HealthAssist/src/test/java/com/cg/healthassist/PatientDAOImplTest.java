@@ -17,7 +17,7 @@ public class PatientDAOImplTest {
 	/**
 	 * Instance of an implemented patient dao.
 	 */
-	private static PatientDAOImpl dao;
+	private static PatientDAOImpl patientDao;
 	
 	
 	/**
@@ -25,7 +25,7 @@ public class PatientDAOImplTest {
 	 */
 	@BeforeClass
 	public static void runOnce() {
-		dao = new PatientDAOImpl();
+		patientDao = new PatientDAOImpl();
 	}
 	
 	/**
@@ -34,8 +34,8 @@ public class PatientDAOImplTest {
 	@Test
 	public void test_Persist_GivenPatient() {
 		Patient patient = new Patient("Chaitanya",21,6382963639L,"Mars","ABC","123");
-		dao.persist(patient);
-		Patient patientFound = dao.findByPatientId(patient.getPatientId());
+		patientDao.persist(patient);
+		Patient patientFound = patientDao.findByPatientId(patient.getPatientId());
 		assertEquals(patient.getPatientUserName(), patientFound.getPatientUserName());
 	}
 	
@@ -44,7 +44,7 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test1_findByPatientId_GivenPatientId_ShouldReturnPatient() {
-		Patient patientFound = dao.findByPatientId(9);
+		Patient patientFound = patientDao.findByPatientId(9);
 		assertEquals("ABC",patientFound.getPatientUserName());
 	}
 	
@@ -53,7 +53,7 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test2_findByPatientId_GivenPatientId_ShouldReturnNull() {
-		Patient patientFound = dao.findByPatientId(23);
+		Patient patientFound = patientDao.findByPatientId(23);
 		assertEquals(null,patientFound);
 	}
 	
@@ -62,9 +62,9 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test1_removePatient_GivenPatientId() {
-		int oldSize = dao.findAll().size();
-		dao.removePatient(12);
-		int newSize = dao.findAll().size();
+		int oldSize = patientDao.findAll().size();
+		patientDao.removePatient(12);
+		int newSize = patientDao.findAll().size();
 		assertNotEquals(oldSize, newSize);
 	}
 	
@@ -73,9 +73,9 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test2_removePatient_GivenPatientId() {
-		int oldSize = dao.findAll().size();
-		dao.removePatient(5);
-		int newSize = dao.findAll().size();
+		int oldSize = patientDao.findAll().size();
+		patientDao.removePatient(5);
+		int newSize = patientDao.findAll().size();
 		assertEquals(oldSize, newSize);
 	}
 	
@@ -84,7 +84,7 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test_findAll_ShouldReturnListOfPatients() {
-		List<Patient> patientList = dao.findAll();
+		List<Patient> patientList = patientDao.findAll();
 		assertNotEquals(0,patientList.size());
 	}
 	
@@ -94,7 +94,7 @@ public class PatientDAOImplTest {
 	@Test
 	public void test_update_TakePatientInstanceAndPrescription_ShouldReturnBoolean() {
 		String prescription = "1. Cipla \n 2. Dispiring";
-		boolean status = dao.update(prescription, 9);
+		boolean status = patientDao.update(prescription, 9);
 		assertTrue(status);
 	}
 	
@@ -104,7 +104,7 @@ public class PatientDAOImplTest {
 	@Test
 	public void test_update_TakePatientInstanceAndPrescription_ShouldReturnFalse() {
 		String prescription = "1. Cipla \n 2. Dispiring";
-		boolean status = dao.update(prescription, 20);
+		boolean status = patientDao.update(prescription, 20);
 		assertFalse(status);
 	}
 	

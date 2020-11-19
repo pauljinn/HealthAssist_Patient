@@ -9,6 +9,11 @@ import com.cg.healthassist.dao.PatientDAO;
 import com.cg.healthassist.model.Patient;
 import com.cg.healthassist.util.JPAUtil;
 
+/**
+ * Implements all the crud operation of PatientDAO interface and also extends JPAUtil for various transactions.
+ * @author Aman Soni
+ *
+ */
 public class PatientDAOImpl extends JPAUtil implements PatientDAO{
 	
 	@Override

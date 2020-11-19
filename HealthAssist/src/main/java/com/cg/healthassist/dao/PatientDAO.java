@@ -5,6 +5,11 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
+/**
+ * An interface to provide declaration of all the CRUD operation of patient.
+ * @author Aman Soni
+ *
+ */
 public interface PatientDAO {
 	/**
 	 * This method will save the data of the patient in database.
