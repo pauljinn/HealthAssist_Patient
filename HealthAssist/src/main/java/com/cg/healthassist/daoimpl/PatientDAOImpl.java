@@ -23,20 +23,24 @@ public class PatientDAOImpl extends JPAUtil implements PatientDAO{
 	}
 
 	@Override
-	public Patient findByPatientId(long id) {
+	public Patient findByPatientId(long patientId) {
 		EntityManager em = getEntityManager();
 		beginTransaction(em);
-		Patient patient = em.find(Patient.class, id);
+		Patient patient = em.find(Patient.class, patientId);
 		commitTransaction(em);
 		closeEntityManager(em);
 		return patient;
 	}
 
 	@Override
-	public void removePatient(Patient patient) {
+	public void removePatient(long patientId) {
 		EntityManager em = getEntityManager();
 		beginTransaction(em);
-		em.remove(patient);
+		Patient patientFound = em.find(Patient.class, patientId);
+		if(patientFound!=null) {
+			em.remove(patientFound);
+		}
+		commitTransaction(em);
 		closeEntityManager(em);
 	}
 
@@ -46,46 +50,24 @@ public class PatientDAOImpl extends JPAUtil implements PatientDAO{
 		beginTransaction(em);
 		Query query = em.createQuery("from Patient");
 		List<Patient> patientList = query.getResultList();
-		if(patientList.size()!=0) {
-			return patientList;
-		}
-		else {
-			return null;
-		}
+		commitTransaction(em);
+		closeEntityManager(em);
+		return patientList;
 	}
 
 	@Override
-	public boolean update(Patient patient,String patientAddress) {
+	public boolean update(String prescription, long patientId) {
+		boolean updated = false;
 		EntityManager em = getEntityManager();
 		beginTransaction(em);
-		Patient patientToUpdate = em.find(Patient.class,patient.getPatientId());
+		Patient patientToUpdate = em.find(Patient.class,patientId);
+		if(patientToUpdate!=null) {
+			patientToUpdate.setPrescription(prescription);
+			updated = true;
+		}
 		commitTransaction(em);
 		closeEntityManager(em);
-		if(patientToUpdate==null) {
-			return false;
-		}
-		else {
-			patientToUpdate.setPatientAddress(patientAddress);
-			return true;
-		}
-		
-		
-	}
-
-	@Override
-	public boolean update(Patient patient, long patientPhoneNumber) {
-		EntityManager em = getEntityManager();
-		beginTransaction(em);
-		Patient patientToUpdate = em.find(Patient.class,patient.getPatientId());
-		commitTransaction(em);
-		closeEntityManager(em);
-		if(patientToUpdate==null) {
-			return false;
-		}
-		else {
-			patientToUpdate.setPhoneNumber(patientPhoneNumber);;
-			return true;
-		}
+		return updated;
 	}
 
 }

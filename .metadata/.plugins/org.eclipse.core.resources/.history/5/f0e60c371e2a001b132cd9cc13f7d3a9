@@ -1,0 +1,41 @@
+package com.cg.healthassist;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.cg.healthassist.daoimpl.PatientDAOImpl;
+import com.cg.healthassist.model.Patient;
+
+public class PatientDAOImplTest {
+	
+	private static PatientDAOImpl dao;
+	
+	@BeforeClass
+	public void setup() {
+		dao = new PatientDAOImpl();
+	}
+	
+	/**
+	 * Test the persist functionality of patient dao whether it saving the patient inside the database or not.
+	 */
+	@Test
+	public void test_Persist_GivenPatient() {
+		Patient patient = new Patient("Chaitanya",21,6382963639L,"Mars","ABC","123");
+		//dao.persist(patient);
+		Patient patientFound = dao.findByPatientId(patient.getPatientId());
+		assertEquals(patient.getPatientUserName(), patientFound.getPatientUserName());
+	}
+	
+	/**
+	 * Test the find by id method of patient dao given the id of the patient it checks whether the patient is same as what expected.
+	 */
+	@Test
+	public void test1_findByPatientId_GivenPatientId_ShouldReturnPatient() {
+		Patient patient = dao.findByPatientId(1);
+		assertEquals("ABC",patient.getPatientUserName());
+	}
+
+}

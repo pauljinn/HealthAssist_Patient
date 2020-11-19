@@ -3,6 +3,8 @@ package com.cg.healthassist.dao;
 import com.cg.healthassist.model.Patient;
 import java.util.List;
 
+import javax.persistence.EntityManager;
+
 public interface PatientDAO {
 	/**
 	 * This method will save the data of the patient in database.
@@ -15,13 +17,13 @@ public interface PatientDAO {
 	 * @param id of the patient to search.
 	 * @return the instance of patient if present else return null.
 	 */
-	public Patient findByPatientId(long id);
+	public Patient findByPatientId(long patientId);
 	
 	/**
 	 * Remove the given instance of patient from the database if present. 
-	 * @param patient to remove.
+	 * @param patient id to remove.
 	 */
-	public void removePatient(Patient patient);
+	public void removePatient(long patientId);
 	
 	/**
 	 * Give all the instances of patients present inside database.
@@ -30,18 +32,10 @@ public interface PatientDAO {
 	public List<Patient> findAll();
 	
 	/**
-	 * Update the given patient address inside the database if present.
-	 * @param patient.
-	 * @param patientAddress to update.
+	 * Upload the given patient doctor prescription inside the database if present.
+	 * @param prescription given by the doctor.
+	 * @param id of the patient.
 	 * @return true if successfully updated else return false.
 	 */
-	public boolean update(Patient patient,String patientAddress);
-	
-	/**
-	 * Update the given patient phone number inside the database if present.
-	 * @param patient.
-	 * @param patientPhoneNumber to update.
-	 * @return true if successfully updated else return false.
-	 */
-	public boolean update(Patient patient, long patientPhoneNumber);
+	public boolean update(String prescription,long patientId);
 }

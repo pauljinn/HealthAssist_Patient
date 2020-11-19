@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PatientDAOImplTest.test1_findByPatientId_GivenPatientId_ShouldReturnPatient" project="HealthAssist" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="test1_findByPatientId_GivenPatientId_ShouldReturnPatient" classname="com.cg.healthassist.PatientDAOImplTest" time="0.001"/>
+</testrun>
