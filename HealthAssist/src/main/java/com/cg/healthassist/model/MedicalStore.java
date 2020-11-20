@@ -3,6 +3,7 @@ package com.cg.healthassist.model;
 import javax.persistence.CollectionTable;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -42,7 +43,7 @@ public class MedicalStore {
 	/**
 	 * List of medicines available in medical store.
 	 */
-	@ElementCollection
+	@ElementCollection(fetch = FetchType.EAGER)
 	@JoinTable(name="medicines",joinColumns = @JoinColumn(name="MedicalStore_Id"))
 	public List<Medicine> medicineList;
 	/**
@@ -153,4 +154,11 @@ public class MedicalStore {
 	public void setChemistName(String chemistName) {
 		this.chemistName = chemistName;
 	}
+	@Override
+	public String toString() {
+		return "MedicalStore [medicalStoreName=" + medicalStoreName + ", phoneNumber=" + phoneNumber + ", address="
+				+ address + ", chemistName=" + chemistName + "]";
+	}
+	
+	
 }

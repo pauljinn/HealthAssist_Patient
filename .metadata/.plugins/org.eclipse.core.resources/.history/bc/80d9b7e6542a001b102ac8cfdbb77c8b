@@ -1,0 +1,20 @@
+package com.cg.healthassist.dao;
+
+import com.cg.healthassist.model.MedicalStore;
+import com.cg.healthassist.model.Patient;
+
+public interface MedicalStoreDAO {
+	
+	/**
+	 * This method will save the data of the medical store in database.
+	 * @param medicalStore, Instance of medical store to persist.
+	 */
+	public void persist(MedicalStore medicalStore);
+	
+	**
+	 * Search the patient with given id in the database.
+	 * @param id of the patient to search.
+	 * @return the instance of patient if present else return null.
+	 */
+	public Patient findByMedicalStoreId(long medicalStoreId);
+}

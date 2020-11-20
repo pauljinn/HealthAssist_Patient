@@ -1,0 +1,9 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(š¯ð¥üÿÿÿÿ8±Þ½¤Þ.HâRMAJORZ
+CODE_SMELL
+^
+java:S1168!"+Return an empty collection instead of null.(¥¹ï8±Þ½¤Þ.HãRMAJORZ
+CODE_SMELL
+v
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(§º°îÿÿÿÿÿ8±Þ½¤Þ.HáRMINORZ
+CODE_SMELL

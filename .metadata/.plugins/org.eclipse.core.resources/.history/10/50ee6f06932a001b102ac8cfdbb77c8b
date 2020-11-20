@@ -1,0 +1,48 @@
+package com.cg.healthassist.serviceimpl;
+
+import java.util.List;
+
+import com.cg.healthassist.model.*;
+import com.cg.healthassist.service.PatientService;
+import com.cg.healthassist.dao.*;
+import com.cg.healthassist.daoimpl.*;
+
+public class PatientServiceImpl implements PatientService {
+
+	@Override
+	public List<Doctor> searchDoctor(String speciality) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String bookDoctorAppointment(String speciality) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean searchMedicalStore(MedicalStore medicalStore,Medicine medicine) {
+		MedicalStoreDAO medicalStoreDao = new MedicalStoreDAOImpl();
+		List<MedicalStore> medicalStoreList = medicalStoreDao.findAll();
+		for(MedicalStore medicalStore:medicalStoreList) {
+			if(medicalStore.getMedicineList().contains(mediine)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	@Override
+	public List<Medicine> orderMedicine() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean uploadPrescriptionCopy(String prescription) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

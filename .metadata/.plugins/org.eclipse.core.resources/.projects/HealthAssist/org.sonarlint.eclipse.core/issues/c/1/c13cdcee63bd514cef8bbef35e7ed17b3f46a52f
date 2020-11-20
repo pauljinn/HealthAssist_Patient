@@ -1,0 +1,16 @@
+
+ˆ
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(Äúİ½8ñ¢ÒŞ.HïRCRITICALZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8®›ÙŞ.HîRINFOZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8®›ÙŞ.HıRINFOZ
+CODE_SMELL
+^
+java:S1168"+Return an empty collection instead of null.(¥¹ï8®›ÙŞ.HíRMAJORZ
+CODE_SMELL
+‘
+java:S1488a"^Immediately return this expression instead of assigning it to the temporary variable "status".(ëõæÑ8À¬îŸŞ.HšRMINORZ
+CODE_SMELL

@@ -1,0 +1,18 @@
+
+p
+java:S1128"DRemove this unused import 'org.hibernate.annotations.GeneratorType'.(Üëõ÷HÁ	RMINORZ
+CODE_SMELL
+l
+java:S1128"9Remove this unused import 'javax.persistence.JoinColumn'.(´Å¼á8¡”ŸŞ.HÕ	RMINORZ
+CODE_SMELL
+p
+java:S1128">Remove this unused import 'javax.persistence.CollectionTable'.(âïA8¡”ŸŞ.HÖ	RMINORZ
+CODE_SMELL
+p
+java:S1128"8Remove this unused import 'javax.persistence.JoinTable'.(ùö±µùÿÿÿÿ8øÉİŸŞ.H¾
+RMINORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'javax.persistence.ElementCollection'.(ØŠÁÖşÿÿÿÿ8øÉİŸŞ.H¿
+RMINORZ
+CODE_SMELL

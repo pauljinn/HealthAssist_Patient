@@ -1,0 +1,63 @@
+
+n
+java:S1854";Remove this useless assignment to local variable "address".(¬Åñ¶8„«¥Ş.HŠRMAJORZ
+CODE_SMELL
+r
+java:S1854"?Remove this useless assignment to local variable "phoneNumber".(€¨Éõ8„«¥Ş.H‹RMAJORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "age".(’×Âú8„«¥Ş.HŒRMAJORZ
+CODE_SMELL
+p
+java:S1854"8Remove this useless assignment to local variable "name".(ä‹Å üÿÿÿÿ8„«¥Ş.HRMAJORZ
+CODE_SMELL
+v
+java:S1854:"CRemove this useless assignment to local variable "loginValidation".(«Á¼¹8„«¥Ş.HRMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ôí‡°şÿÿÿÿ8„«¥Ş.HRCRITICALZ
+CODE_SMELL
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÑÍ£ıüÿÿÿÿ8„«¥Ş.H™RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(§‡×¡ÿÿÿÿÿ8„«¥Ş.HšRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ûÕş8„«¥Ş.H›RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(òÙŸÑÿÿÿÿÿ8„«¥Ş.HœRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ãõ¯Úıÿÿÿÿ8„«¥Ş.HRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÆŠ8„«¥Ş.HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ŸæÂ÷ıÿÿÿÿ8„«¥Ş.HŸRMAJORZ
+CODE_SMELL
+\
+java:S1125")Remove the literal "false" boolean value.(³¶²¾8„«¥Ş.H RMINORZ
+CODE_SMELL
+Š
+java:S2737/"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8„«¥Ş.H¡RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ºÏšú8„«¥Ş.H¢RMAJORZ
+CODE_SMELL
+k	java:S106 "9Replace this use of System.out or System.err by a logger.(ç£Ã¥8„«¥Ş.H£RMAJORZ
+CODE_SMELL
+p	java:S1066"9Replace this use of System.out or System.err by a logger.(ÿÎ„Íúÿÿÿÿ8„«¥Ş.H¤RMAJORZ
+CODE_SMELL
+p	java:S1068"9Replace this use of System.out or System.err by a logger.(¨÷®ôûÿÿÿÿ8„«¥Ş.H¥RMAJORZ
+CODE_SMELL
+a
+java:S1481")Remove this unused "name" local variable.(ä‹Å üÿÿÿÿ8„«¥Ş.H¦RMINORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "age" local variable.(’×Âú8„«¥Ş.H§RMINORZ
+CODE_SMELL
+c
+java:S1481"0Remove this unused "phoneNumber" local variable.(€¨Éõ8„«¥Ş.H¨RMINORZ
+CODE_SMELL
+_
+java:S1481",Remove this unused "address" local variable.(¬Åñ¶8„«¥Ş.H©RMINORZ
+CODE_SMELL
+g
+java:S14815"4Remove this unused "loginValidation" local variable.(İ£Ìû8„«¥Ş.HªRMINORZ
+CODE_SMELL

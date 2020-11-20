@@ -1,0 +1,80 @@
+package com.cg.healthassist.util;
+import java.util.*;
+
+import com.cg.healthassist.exception.AuthenticationException;
+import com.cg.healthassist.exception.InvalidException;
+
+/**
+ * A class to provide login utilities like sign in and sign up to patients.
+ * @author Aman Soni
+ *
+ */
+public class LoginUtil {
+	/**
+	 * Provides sign in and sign up functionality to patient based on their choice.
+	 * @throws InvalidException
+	 * @throws AuthenticationException
+	 */
+	public void loginUtil() throws InvalidException,AuthenticationException{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Welcome to Life Line Application");
+		System.out.println("1.Sign Up\n2.Sign in");
+		System.out.println("Please enter your choice");
+		String choice = sc.nextLine();
+		/**
+		 * Authenticate the user name whether it's unique or not.
+		 */
+		AuthenticationUtil verify = new AuthenticationUtil();\
+		/**
+		 * Show sign up page to patients.
+		 */
+		if(choice.equalsIgnoreCase("Sign up"))
+		{
+			System.out.println("Enter your name : ");
+			String name = sc.nextLine();
+			System.out.println("Enter your age : ");
+			int age = sc.nextInt();
+			sc.nextLine();
+			System.out.println("Enter your phone number : ");
+			long phoneNumber = sc.nextLong();
+			sc.nextLine();
+			System.out.println("Enter your address : ");
+			String address = sc.nextLine();
+			boolean verificationProcess=false;
+			while(verificationProcess==false) {
+				try{
+					System.out.println("Enter unique username : ");
+					String userName = sc.nextLine();
+					System.out.println("Enter password : ");
+					String password = sc.nextLine();
+					if(userName.isBlank() && password.isBlank()) {
+						throw new InvalidException("userName and password should not be empty");
+					}
+					else if(userName.isBlank()) {
+						throw new InvalidException("userName should not be empty");
+					}
+					else if(password.isBlank()) {
+						throw new InvalidException("Password should not be empty");
+					}
+					verificationProcess=verify.authenticateUserName(userName);
+					if(!verificationProcess)
+						throw new AuthenticationException("Username should be unique");
+				}catch(InvalidException e) {
+					throw e;
+				}
+				
+			}
+		}
+		/**
+		 * Show sign in page to patients.
+		 */
+		else {
+			boolean loginValidation = false;
+			System.out.println("Enter the username : ");
+			String username = sc.nextLine();
+			System.out.println("Enter the password : ");
+			String password = sc.nextLine();
+			loginValidation = verify.signInValidationOfUserNameAndPassword(username, password);
+		}
+	}
+}

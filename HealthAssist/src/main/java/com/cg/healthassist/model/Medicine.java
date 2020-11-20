@@ -124,7 +124,7 @@ public class Medicine {
 	public void setManufacturingDate(String manufacturingDate) {
 		this.manufacturingDate = manufacturingDate;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Medicine [name=" + name + ", price=" + price + ", companyName=" + companyName + ", expiryDate="

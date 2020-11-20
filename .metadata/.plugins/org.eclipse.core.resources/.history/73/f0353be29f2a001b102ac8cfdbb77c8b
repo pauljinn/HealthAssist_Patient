@@ -1,0 +1,29 @@
+package com.cg.healthassist;
+
+import com.cg.healthassist.daoimpl.MedicalStoreDAOImpl;
+import com.cg.healthassist.daoimpl.PatientDAOImpl;
+import com.cg.healthassist.model.MedicalStore;
+import com.cg.healthassist.model.Medicine;
+import com.cg.healthassist.service.*;
+import com.cg.healthassist.serviceimpl.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger; 
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	//private static Logger logger=Logger.getLogger(App.class);
+    public static void main( String[] args )
+    {
+    	PatientService patientService = new PatientServiceImpl();
+    	MedicalStore medicalStoreFound = patientService.searchMedicalStore("crocin");
+    	System.out.println(medicalStoreFound);
+    	//logger.info(medicalStoreFound);
+        
+    }
+}

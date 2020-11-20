@@ -1,0 +1,24 @@
+package com.cg.healthassist;
+
+import com.cg.healthassist.daoimpl.MedicalStoreDAOImpl;
+import com.cg.healthassist.daoimpl.PatientDAOImpl;
+import com.cg.healthassist.model.MedicalStore;
+import com.cg.healthassist.model.Medicine;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger; 
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	private static Logger logger=Logger.getLogger(App.class);
+    public static void main( String[] args )
+    {
+    	logger.info("My Logger");
+        
+    }
+}

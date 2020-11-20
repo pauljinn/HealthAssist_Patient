@@ -1,0 +1,51 @@
+package com.cg.healthassist.model;
+
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Embeddable
+public class Medicine {
+	/**
+	 * Name of the medicine.
+	 */
+	private String name;
+	/**
+	 * Price of the medicine.
+	 */
+	private double price;
+	/**
+	 * Company name for medicine.
+	 */
+	private String companyName;
+	/**
+	 * Expiry date of the medicine.
+	 */
+	private String expiryDate;
+	/**
+	 * Manufacturing date of the medicine.
+	 */
+	private String manufacturingDate;
+	
+	/**
+	 * Create a new instance of the medicine on given parameters.
+	 * @param name
+	 * @param price
+	 * @param companyName
+	 * @param expiryDate
+	 * @param manufacturingDate
+	 */
+	public Medicine(String name, double price, String companyName, String expiryDate, String manufacturingDate) {
+		super();
+		this.name = name;
+		this.price = price;
+		this.companyName = companyName;
+		this.expiryDate = expiryDate;
+		this.manufacturingDate = manufacturingDate;
+	}
+	
+	
+
+}

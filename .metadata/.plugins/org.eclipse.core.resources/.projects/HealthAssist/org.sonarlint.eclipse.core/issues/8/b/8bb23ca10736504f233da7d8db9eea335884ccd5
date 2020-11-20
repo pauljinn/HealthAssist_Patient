@@ -1,0 +1,13 @@
+
+d
+java:S1128"1Remove this unused import 'javax.persistence.Id'.(þ¹ÞÜ8Ïžý€Þ.HéRMINORZ
+CODE_SMELL
+p
+java:S1128"=Remove this unused import 'javax.persistence.GenerationType'.(ý÷õ¡8Ïžý€Þ.HçRMINORZ
+CODE_SMELL
+m
+java:S1128"5Remove this unused import 'javax.persistence.Entity'.(úƒßýûÿÿÿÿ8Ïžý€Þ.HæRMINORZ
+CODE_SMELL
+p
+java:S1128"=Remove this unused import 'javax.persistence.GeneratedValue'.(¤®À‚8Ïžý€Þ.HèRMINORZ
+CODE_SMELL

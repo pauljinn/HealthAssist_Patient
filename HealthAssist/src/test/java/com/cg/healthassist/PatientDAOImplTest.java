@@ -93,7 +93,7 @@ public class PatientDAOImplTest {
 	 */
 	@Test
 	public void test_update_TakePatientInstanceAndPrescription_ShouldReturnBoolean() {
-		String prescription = "1. Cipla \n 2. Dispiring";
+		String prescription = "Cipla,Dispiring";
 		boolean status = patientDao.update(prescription, 9);
 		assertTrue(status);
 	}

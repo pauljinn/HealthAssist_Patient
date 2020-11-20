@@ -1,0 +1,8 @@
+package com.cg.healthassist.model;
+
+public class Chemist {
+	private String name;
+	private int age;
+	
+
+}

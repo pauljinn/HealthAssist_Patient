@@ -1,0 +1,42 @@
+package com.cg.healthassist.service;
+
+
+import java.util.List;
+import com.cg.healthassist.model.*;
+
+public interface PatientService {
+	/**
+	 * Search the doctors with given specialty in doctor database.
+	 * @param speciality
+	 * @return the list of doctors if present otherwise an empty list.
+	 */
+	public List<Doctor> searchDoctor(String speciality);
+	/**
+	 * Book the appointment for patient with a doctor having given specialty.
+	 * @param speciality
+	 * @return the information about booking.
+	 */
+	public String bookDoctorAppointment(String speciality);
+	
+	/**
+	 * Search the given medical store on given medicine whether it is present or not.
+	 * @param medicalStore
+	 * @param medicine
+	 * @return true if any medical store has that medicine otherwise return false.
+	 */
+	public boolean searchMedicalStore(MedicalStore medicalStore,Medicine medicine);
+	
+	/**
+	 * Based on doctor prescription order the medicine for the patient.
+	 * @return the list of successfully ordered medicine otherwise return empty list.
+	 */
+	public List<Medicine> orderMedicine();
+	
+	/**
+	 * Upload the prescription given by the doctor to patient.
+	 * @param prescription
+	 * @return true on successful uploading otherwise return false.
+	 */
+	public boolean uploadPrescriptionCopy(String prescription);
+
+}

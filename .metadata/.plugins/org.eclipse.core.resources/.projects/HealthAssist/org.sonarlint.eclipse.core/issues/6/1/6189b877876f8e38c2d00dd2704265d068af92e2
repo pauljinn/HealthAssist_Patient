@@ -1,0 +1,46 @@
+
+r
+java:S2259"AA "NullPointerException" could be thrown; "dao" is nullable here.(¸¡–¿øÿÿÿÿ8šŠ×¥Ş.HïRMAJORZBUG
+‘
+java:S14884"_Immediately return this expression instead of assigning it to the temporary variable "details".(â‡=8›Š×¥Ş.HòRMINORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8›Š×¥Ş.HóRMINORZ
+CODE_SMELL
+z
+java:S1128"GRemove this unused import 'com.cg.healthassist.service.PatientService'.(Óÿµ”8›Š×¥Ş.HôRMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å„İ¨üÿÿÿÿ8›Š×¥Ş.HõRMINORZ
+CODE_SMELL
+w
+java:S1854"DRemove this useless assignment to local variable "doctorSpeciality".(üæŒ¯8›Š×¥Ş.HöRMAJORZ
+CODE_SMELL
+j
+java:S1117"7Rename "dao" which hides the field declared at line 14.(Ü¼«8›Š×¥Ş.H÷RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(†ò¶¼8›Š×¥Ş.HøRMAJORZ
+CODE_SMELL
+`	java:S108")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8›Š×¥Ş.HùRMAJORZ
+CODE_SMELL
+w
+java:S1854&"DRemove this useless assignment to local variable "doctorSpeciality".(üæŒ¯8›Š×¥Ş.HúRMAJORZ
+CODE_SMELL
+k	java:S106%"9Replace this use of System.out or System.err by a logger.(†ò¶¼8›Š×¥Ş.HûRMAJORZ
+CODE_SMELL
+`	java:S108)")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8›Š×¥Ş.HüRMAJORZ
+CODE_SMELL
+v
+java:S18542">Remove this useless assignment to local variable "doctorList".(¸¡–¿øÿÿÿÿ8›Š×¥Ş.HıRMAJORZ
+CODE_SMELL
+f
+java:S1481"3Remove this unused "specialization" local variable.(Ìñ”¬8›Š×¥Ş.HşRMINORZ
+CODE_SMELL
+h
+java:S1481"5Remove this unused "doctorSpeciality" local variable.(üæŒ¯8›Š×¥Ş.HÿRMINORZ
+CODE_SMELL
+h
+java:S1481&"5Remove this unused "doctorSpeciality" local variable.(üæŒ¯8›Š×¥Ş.H€RMINORZ
+CODE_SMELL
+g
+java:S14812"/Remove this unused "doctorList" local variable.(¸¡–¿øÿÿÿÿ8›Š×¥Ş.HRMINORZ
+CODE_SMELL

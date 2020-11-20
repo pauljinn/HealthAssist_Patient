@@ -1,0 +1,94 @@
+
+v
+java:S1128">Remove this unused import 'com.cg.healthassist.model.Patient'.(ùäşÃøÿÿÿÿ8ÇÊÆ¥Ş.H¾RMINORZ
+CODE_SMELL
+w
+java:S1128"?Remove this unused import 'com.cg.healthassist.model.Hospital'.(û«Øºüÿÿÿÿ8ÇÊÆ¥Ş.H¿RMINORZ
+CODE_SMELL
+v
+java:S1128"CRemove this unused import 'com.cg.healthassist.model.MedicalStore'.(ß¸ã8ÇÊÆ¥Ş.HÀRMINORZ
+CODE_SMELL
+t
+java:S1128"ARemove this unused import 'com.cg.healthassist.model.Laboratory'.(®Ç¥¨8ÇÊÆ¥Ş.HÁRMINORZ
+CODE_SMELL
+u
+java:S1128"=Remove this unused import 'com.cg.healthassist.model.Doctor'.(Ç›Ûûÿÿÿÿ8ÇÊÆ¥Ş.HÂRMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÂ¶<8ÇÊÆ¥Ş.HÃRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¬³‡µ8ÇÊÆ¥Ş.HÄRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ø™‹ùúÿÿÿÿ8ÇÊÆ¥Ş.HÅRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Š‹„Ù8ÇÊÆ¥Ş.HÆRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¾º¥»ÿÿÿÿÿ8ÇÊÆ¥Ş.HÇRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(œÁ–8ÇÊÆ¥Ş.HÈRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ò¹Ç­8ÇÊÆ¥Ş.HÉRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(øãõÿ8ÇÊÆ¥Ş.HÊRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(İ±Øi8ÇÊÆ¥Ş.HËRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ïÉˆşÿÿÿÿ8ÇÊÆ¥Ş.HÌRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(™ƒ“úüÿÿÿÿ8ÇÊÆ¥Ş.HÍRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ŒšæÚûÿÿÿÿ8ÇÊÆ¥Ş.HÎRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(«­‹‰ùÿÿÿÿ8ÇÊÆ¥Ş.HÏRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(†âç³ùÿÿÿÿ8ÇÊÆ¥Ş.HĞRMAJORZ
+CODE_SMELL
+\	java:S131 ""Add a default case to this switch.(­Ö¹§úÿÿÿÿ8ÇÊÆ¥Ş.HÑRCRITICALZ
+CODE_SMELL
+k	java:S106""9Replace this use of System.out or System.err by a logger.(ğêİÊ8ÇÊÆ¥Ş.HÒRMAJORZ
+CODE_SMELL
+j	java:S106%"9Replace this use of System.out or System.err by a logger.(¤±—+8ÇÊÆ¥Ş.HÓRMAJORZ
+CODE_SMELL
+k	java:S106("9Replace this use of System.out or System.err by a logger.(ğÃüé8ÇÊÆ¥Ş.HÔRMAJORZ
+CODE_SMELL
+p	java:S106+"9Replace this use of System.out or System.err by a logger.(­Î¹çøÿÿÿÿ8ÇÊÆ¥Ş.HÕRMAJORZ
+CODE_SMELL
+k	java:S1061"9Replace this use of System.out or System.err by a logger.(ç¾‡ƒ8ÇÊÆ¥Ş.HÖRMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(ŒÀ×õ8ÇÊÆ¥Ş.H×RMAJORZ
+CODE_SMELL
+p	java:S1063"9Replace this use of System.out or System.err by a logger.(Ëµñìüÿÿÿÿ8ÇÊÆ¥Ş.HØRMAJORZ
+CODE_SMELL
+p	java:S1064"9Replace this use of System.out or System.err by a logger.(†âç³ùÿÿÿÿ8ÇÊÆ¥Ş.HÙRMAJORZ
+CODE_SMELL
+\	java:S1316""Add a default case to this switch.(­Ö¹§úÿÿÿÿ8ÇÊÆ¥Ş.HÚRCRITICALZ
+CODE_SMELL
+k	java:S1068"9Replace this use of System.out or System.err by a logger.(Ø´­8ÇÊÆ¥Ş.HÛRMAJORZ
+CODE_SMELL
+p	java:S106;"9Replace this use of System.out or System.err by a logger.(¥×ï§ûÿÿÿÿ8ÇÊÆ¥Ş.HÜRMAJORZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(§ŒîÂùÿÿÿÿ8ÇÊÆ¥Ş.HİRMAJORZ
+CODE_SMELL
+p	java:S106D"9Replace this use of System.out or System.err by a logger.(®œÿëşÿÿÿÿ8ÇÊÆ¥Ş.HŞRMAJORZ
+CODE_SMELL
+k	java:S106E"9Replace this use of System.out or System.err by a logger.(Æéú8ÇÊÆ¥Ş.HßRMAJORZ
+CODE_SMELL
+p	java:S106F"9Replace this use of System.out or System.err by a logger.(Œ·òıÿÿÿÿ8ÇÊÆ¥Ş.HàRMAJORZ
+CODE_SMELL
+j	java:S106G"9Replace this use of System.out or System.err by a logger.(İ±Øi8ÇÊÆ¥Ş.HáRMAJORZ
+CODE_SMELL
+\	java:S131I""Add a default case to this switch.(­Ö¹§úÿÿÿÿ8ÇÊÆ¥Ş.HâRCRITICALZ
+CODE_SMELL
+p	java:S106K"9Replace this use of System.out or System.err by a logger.(«•úüÿÿÿÿ8ÇÊÆ¥Ş.HãRMAJORZ
+CODE_SMELL
+k	java:S106N"9Replace this use of System.out or System.err by a logger.(ÏèÓî8ÇÊÆ¥Ş.HäRMAJORZ
+CODE_SMELL
+k	java:S106Q"9Replace this use of System.out or System.err by a logger.(‹œ²8ÇÊÆ¥Ş.HåRMAJORZ
+CODE_SMELL
+k	java:S106W"9Replace this use of System.out or System.err by a logger.(õ»÷Æ8ÇÊÆ¥Ş.HæRMAJORZ
+CODE_SMELL
+k	java:S106\"9Replace this use of System.out or System.err by a logger.(¡ãÅì8ÇÊÆ¥Ş.HçRMAJORZ
+CODE_SMELL
+k	java:S106`"9Replace this use of System.out or System.err by a logger.(‘ú»â8ÇÊÆ¥Ş.HèRMAJORZ
+CODE_SMELL
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(ËŠ”´ÿÿÿÿÿ8ÇÊÆ¥Ş.HéRMAJORZ
+CODE_SMELL
